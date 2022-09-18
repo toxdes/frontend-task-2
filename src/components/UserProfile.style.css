@@ -104,3 +104,14 @@
 .user-profile .row3 button{
     width:100%;
 }
+
+@media only screen and (max-width: 540px) {
+    .user-profile .row1 img {
+      width:60px;
+      height:60px;
+      padding:4px;
+    }
+    .user-profile .row1 {
+        align-items:flex-start;
+    }
+  }

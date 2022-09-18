@@ -84,7 +84,7 @@ export default function Post(_: PostProps) {
       <div className="liked-by">
         <Text>Liked by </Text>
         <Text className="users">
-          {likedBy[0]}, {likedBy[1]}
+          {likedBy[0] || post.likedBy[0]}, {likedBy[1] || post.likedBy[1]}
         </Text>
         <Text>and </Text>
         <Text className="users"> {formatCount(likesCount - 2)} others</Text>
