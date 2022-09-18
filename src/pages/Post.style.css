@@ -1,0 +1,86 @@
+.post-page{
+    width:100%;
+    max-width:800px;
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+}
+
+.post-page .profile-row{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding:12px;
+}
+
+.post-page .profile-row img {
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+    margin-right:12px;
+}
+
+.post-page .profile-row .username{
+    font-weight: 600;
+}
+
+
+.post-page .content-image {
+    width:100%;
+    margin-top:12px;
+}
+
+.post-page .text-content{
+    margin-top:12px;
+    padding-left:12px;
+    padding-right:12px;
+
+}
+.post-page .text-content .username{
+    color:slategray;
+    margin-top:4px;
+    margin-bottom:12px;
+}
+
+.post-page .actions{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    padding-left:12px;
+    padding-right:12px;
+
+}
+
+.post-page .actions .icbutton {
+    margin-right:12px;
+    margin-top:12px;
+    margin-bottom:12px;
+    cursor:pointer;
+}
+
+
+.post-page .actions .bookmark{
+    margin-left:auto;
+}
+
+.post-page .liked-by{
+    display: flex;
+    flex-direction: row;
+    padding-left:12px;
+    padding-right:12px;
+
+}
+
+.post-page .liked-by .users{
+    font-weight: 600;
+    margin-left:4px;
+    margin-right:4px;
+}
+
+.post-page .likes-count{
+    padding-left:12px;
+    padding-right:12px;
+}

@@ -1,0 +1,49 @@
+.post-tiles{
+    width:100%;
+    max-width:900px;
+    margin:auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+.post-tiles .tile{
+    margin:0;
+    padding:0;
+    width:240px;
+    height:240px;
+    margin-right:8px;
+    margin-bottom:8px;
+    cursor:pointer;
+    overflow:hidden;
+}
+
+.post-tiles .tile:hover{
+    background-color: green;
+}
+
+.post-tiles .tile img{
+    width:100%;
+    height:100%;
+    transition:0.2s ease-in;
+}
+
+.post-tiles .tile img:hover{
+    transform:scale(1.08);
+}
+
+.post-tiles-root {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom:20px;
+    margin:auto;
+    max-width:900px;
+}
+
+.post-tiles-root .loading{
+    margin: 40px 0px;
+}

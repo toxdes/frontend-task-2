@@ -9,11 +9,12 @@ export interface Profile {
   followingCount: number;
   isSelf: boolean;
   isFollowing: boolean;
+  isVerified: boolean;
 }
 
 export interface Post {
   id: string;
-  author: string;
+  author: Profile;
   commentsCount: number;
   comments: Comment[];
   isLiked: boolean;
@@ -25,7 +26,7 @@ export interface Post {
 
 export interface Comment {
   id: string;
-  author: string;
+  author: Profile;
   comment: string;
   createdAt: string;
   updatedAt: string;

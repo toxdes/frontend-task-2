@@ -1,8 +1,8 @@
 import React from "react";
 import "./App.css";
-
+import Router from "./router";
 function App() {
-  return <h1>Hello world</h1>;
+  return <Router />;
 }
 
 export default App;

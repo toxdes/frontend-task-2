@@ -1,0 +1,106 @@
+.user-profile{
+    max-width:900px;
+    margin:auto;
+    margin-top:60px;
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    align-items:flex-start;
+    justify-content:flex-start;
+    margin-bottom:60px;
+    overflow:hidden;
+}
+
+.user-profile .row1{
+    display:flex;
+    width:100%;
+    flex-direction:row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    /* background-color: green; */
+}
+
+.user-profile .row1 img{
+    width:140px;
+    height:140px;
+    border:2px solid #cdcdcd;
+    border-radius: 50%;
+    padding:8px;
+}
+.user-profile .row1 .right{
+    display: flex;
+    width:100%;
+    max-width: 400px;
+    flex-direction: column;
+    margin:auto;
+    padding:12px;
+}
+.user-profile .row1 .counts{
+    display: flex;
+    /* background:red; */
+    flex-direction: row;
+    width:100%;
+    align-items: center;
+    margin-bottom:14px;
+    justify-content: space-between;
+}
+
+.user-profile .row1 .counts .counts-item{
+    margin:4px;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.user-profile .counts-item .num {
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+.user-profile .counts-item .label{
+    color:slategray;
+}
+
+.user-profile .row2 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom:12px;
+    padding:12px;
+    width:100%;
+    /* background-color: red; */
+}
+
+.user-profile .row2 .username-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom:8px;
+}
+
+.user-profile .row2 .username-container .username{
+    font-weight: 600;
+}
+
+.user-profile .row2 .verified-icon{
+    margin-left:4px;
+    color:#0095F6;
+}
+
+.user-profile .bio{
+    margin-bottom:12px;
+    max-width:480px;
+    line-height: 24px;
+}
+
+.user-profile .row3 {
+    width:100%;
+    border-top:solid 1px lightgray;
+    border-bottom:solid 1px lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.user-profile .row3 button{
+    width:100%;
+}

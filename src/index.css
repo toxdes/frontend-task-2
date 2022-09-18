@@ -1,4 +1,23 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap');
+
+
+*{
+  font-family:'Inter', Helvetica, sans-serif;
+}
+html, body{
   margin:0;
   padding:0;
+  width:'100%';
+  overflow-x: hidden;
+}
+
+.link {
+  color: #0095F6;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.root{
+  height:100vh;
+  overflow-y: scroll;
 }

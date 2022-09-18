@@ -1,0 +1,45 @@
+.primary-button{
+    background-color:#0095F6;
+    border:none;
+    padding:8px 0px;
+    color:white;
+    text-transform:capitalize ;
+    font-weight:600;
+    border-radius: 4px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+.primary-button:hover{
+    background-color: #42acf3;
+}
+
+.primary-button:active{
+    background: #0065a8;
+}
+
+.ghost-button {
+    background:none;
+    border:none;
+    padding:8px 0px;
+    color: #0095F6;
+    text-transform:capitalize ;
+    font-weight:600;
+    border-radius: 4px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+.icon-button{
+    width:40px;
+    height:40px;
+    transition:0.1s linear;
+}
+
+.icon-button:hover{
+    transform:scale(1.08);
+}
+
+.icon-button:active{
+    transform:scale(0.92);
+}
