@@ -40,7 +40,9 @@ export const getComment = async (): Promise<Comment> => {
     id: randomUUID(),
     author,
     comment: faker.lorem.sentences(randInt(3)),
-    createdAt: new Date().toUTCString(),
+    createdAt: new Date(
+      new Date().getTime() - randInt(200) * 1e6
+    ).toUTCString(),
     updatedAt: new Date().toUTCString(),
     isLiked: Math.random() < 0.5,
   };
@@ -112,6 +114,7 @@ export const addComment = async (
     me.username = "AwesomeUser";
   }
   newComment.author = me;
+  newComment.createdAt = new Date().toUTCString();
   postsCache[postId].comments = [newComment, ...postsCache[postId].comments];
   commentsCache[newComment.id] = newComment;
   postsCache[postId].commentsCount++;
