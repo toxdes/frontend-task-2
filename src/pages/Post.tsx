@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect } from "react";
 import { useLoader } from "../hooks";
 import { useParams, useNavigate, Link } from "react-router-dom";
 import { Text, IconButton } from "../elements";
@@ -8,7 +8,6 @@ import { formatCount } from "../utils";
 import Comments from "../components/Comments";
 
 import "./Post.style.css";
-import { flushSync } from "react-dom";
 interface PostProps {}
 
 export default function Post(_: PostProps) {

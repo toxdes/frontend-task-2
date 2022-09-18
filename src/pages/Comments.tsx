@@ -1,11 +1,4 @@
-import {
-  useEffect,
-  useState,
-  useRef,
-  ChangeEvent,
-  createRef,
-  FormEvent,
-} from "react";
+import { useEffect, useState, ChangeEvent, createRef, FormEvent } from "react";
 import { Link, useParams } from "react-router-dom";
 import { addComment, getCommentsByPostId } from "../api";
 import { Comment as TComment } from "../api/types";

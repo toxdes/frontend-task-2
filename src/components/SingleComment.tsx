@@ -1,5 +1,5 @@
 import { Comment as TComment } from "../api/types";
-import { Text, Button, IconButton } from "../elements";
+import { Text, Button } from "../elements";
 import { timeSince } from "../utils";
 
 interface SingleCommentProps {
